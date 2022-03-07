@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.tela{
+    height: 100vh;
+    width: 99vw;
+    overflow: hidden;
+}
+.botoes{
+    color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.296);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.slider-largura{
+    display: flex;
+    height: 100vh;
+    transition: ease all 1s;
+    margin-left: 0;
+}
+.slide-img{
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
